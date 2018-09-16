@@ -1,0 +1,29 @@
+{
+  "name": "emoji-extractor",
+  "version": "1.0.0",
+  "description": "Copy emoji fallback images based on use in source files",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "bin": {
+    "emoji-extractor": "./index.js"
+  },
+  "keywords": [
+    "emoji"
+  ],
+  "author": "slikts <dabas@untu.ms>",
+  "license": "MIT",
+  "dependencies": {
+    "emoji-regex": "^7.0.1",
+    "glob": "^7.1.3"
+  },
+  "devDependencies": {
+    "eslint-plugin-import": "^2.14.0",
+    "@slikts/eslint-config-prettier": "^5.1.1",
+    "eslint": "^5.6.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "nodemon": "^1.18.4",
+    "prettier": "^1.14.2"
+  }
+}
